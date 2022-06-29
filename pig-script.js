@@ -33,7 +33,7 @@ diceEl.classList.add('hidden');
 btnRoll.addEventListener('click', function()
 {   
     let dice = Math.trunc(Math.random()*6 + 1);
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `diceimages/dice-${dice}.png`;
     diceEl.classList.remove('hidden');
     
     
